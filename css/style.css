@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mt--12{
+    margin-top: -12px;
+}
+.mbbank{
+    margin-left: -20px;
+}
+.mt-1{
+    margin-bottom: 10px;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.wht{
+    color:#fff;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.mart-8{
+    margin-top: 12px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.col{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-full{
+    width: 100%;
+}
+
+.col-half{
+    width: 50%;
+}
+.third{
+    width: calc( 100% / 3);
+}
+.col-third{
+    width: calc( 100% / 4);
+}
+
+.mt-8{
+    margin-top: 8px !important;
+}
+  
+.mt-16{
+    margin-top: 16px !important;
+}
+.bkwhite{
+    background-color: #fff;
+}
+.txtwhite{
+    color:#fff;
+}
+.clear{
+    clear:both;
+}
+    /* column - css */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+/* Header */
+#header{
+    height: 50px;
+    background-color: #000;
+    z-index: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-headings {
+    border: 0px solid #ddd;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .inner-headings .logo_Name {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+
+#nav{
+    display: flex;
+    float: right;
+    margin-right: 5%;
+}
+#nav li a {
+    text-decoration: none;
+    color:#fff;
+    line-height: 50px;
+    list-style-type: none;
+    padding: 10px 30px;
+}
